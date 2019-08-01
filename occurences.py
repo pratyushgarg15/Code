@@ -1,18 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Jul 13 08:56:03 2019
-
-@author: HP
-"""
-
-def occurences(s,pos):
-    count = 0
-    for i in range(pos-1):
-        if(s[i] == s[pos-1]):
-            count += 1
-       
-    return count  
-
 if __name__ == '__main__':
     size = int(input())  
     s = input()
